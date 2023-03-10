@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01532DAA137C099F0076F6BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01532DA9137C099F0076F6BF /* icon.png */; };
+		0598497B90F25D2351C44717 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF4A959762800C32A5F13F /* CoreVideo.framework */; };
+		1551497C8636AE85A1EBA81B /* libsdl2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC24BCF9D5EA8605D285487 /* libsdl2_image.a */; };
+		15694C1C89EAB79B36E09178 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3E420B90DA646BF64B6310 /* CoreMedia.framework */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2AF24484A485B3009569967D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 015A431F9970DDF666FCADE9 /* libz.tbd */; };
+		2CB5F34717D5233A006187AB /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5F34617D5233A006187AB /* bridge.m */; };
+		32B7415C9143769979DB2EB4 /* libsdl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CE4A43B71DF0651DC553E0 /* libsdl2.a */; };
+		33EB4BA79BE5738B89A8C7A4 /* libios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 980A44C8B3060F2F1204EFD7 /* libios.a */; };
+		3B8F42ED8E1108F0358B7118 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE44AAC819E703A1E435900 /* CoreHaptics.framework */; };
+		3F5E4FE8989825EBDC8CA05B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDC4163960EA4CE5301E07E /* Metal.framework */; };
+		43A54D3A9DF56C2255576412 /* libpyobjus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAF4AB7A191F8E1880D56C7 /* libpyobjus.a */; };
+		49024149A045CE4B19619996 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71384D4E8A6DF0C4767A4F06 /* Accelerate.framework */; };
+		536E40D1BDC6375B0FDB9E96 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661043A5BCD897250B898F8A /* AudioToolbox.framework */; };
+		59738AB51A8BB5D8001B2C0C /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 59738AB41A8BB5D8001B2C0C /* lib */; };
+		59738ABB1A8E19AA001B2C0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59738ABA1A8E19AA001B2C0C /* Images.xcassets */; };
+		59994E3B148E85C800863906 /* YourApp in Resources */ = {isa = PBXBuildFile; fileRef = 59994E3A148E85C800863906 /* YourApp */; };
+		59FDEA8B21E7D34E004E6ECE /* include in Resources */ = {isa = PBXBuildFile; fileRef = 59FDEA8A21E7D34E004E6ECE /* include */; };
+		5AEA4663B7B475894D5A05B8 /* libpillow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB574A28A078576585679209 /* libpillow.a */; };
+		69CD4867A510C3A782ECA21D /* libsdl2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC774F689BD550B0EB3E4F6C /* libsdl2_mixer.a */; };
+		6BA042BB80D75928998AF25D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 593E47FB8EA7624D47D29D93 /* libc++.tbd */; };
+		6DEF4B4AB534D39D2078FA55 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2347B2B6FD0252FC5FAC29 /* libbz2.tbd */; };
+		72BD435D82D42D6EF779C56A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633B4EAEBCD8159E32BBD7E4 /* QuartzCore.framework */; };
+		7AFD4571AEB58E9A1CA605C7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB164123A8EEE1A60112F641 /* ImageIO.framework */; };
+		8A4A4F84A07A7FB1C06506E5 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D4FCC9C3CCC6176862467 /* GameController.framework */; };
+		8F0C42309909B50B48DEAD48 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF64E348B2027E56991207E /* CoreBluetooth.framework */; };
+		8F1949388509638C9DC606DE /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776A494AAF478C2DDBAB791B /* Photos.framework */; };
+		96CA4F1B9C2D2F2837F5E8D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F44AAEBFE305A7AE7154D9 /* UIKit.framework */; };
+		A7CE4A928EF4FB746366ADAD /* libpython3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FF478F8EE94CD50B68A5C7 /* libpython3.a */; };
+		AC5106F52959EE4E00655416 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5106F42959EE4E00655416 /* Launch Screen.storyboard */; };
+		AD844CAE99CC5F1EE75B68F4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F461414BBD883FD5B7B9C70C /* CoreMotion.framework */; };
+		AFCF4BFE8DF911F6A05A7D11 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E46158515625E1622D42C /* OpenGLES.framework */; };
+		B10142639275680685150616 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F64DE7A2846352C05FFBE7 /* libsqlite3.tbd */; };
+		BC004BB7B400728CD4703CA7 /* libkivy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84864AB58FDB7719771959D2 /* libkivy.a */; };
+		C7DA4B9E9F77D83FCDA6961B /* libsdl2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC954AC3A8BD76F4FECEC11B /* libsdl2_ttf.a */; };
+		CE254524898FED12CDA2CCBC /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CB4EC7AFB27978988B9A58 /* libssl.a */; };
+		D19F4FAC82B44B71D1DB656D /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F98846BDB2BFC3FF3BC3AC6D /* libjpeg.a */; };
+		D454400A98DDC70483B590A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5E485199F6AC40279F9DFA /* AVFoundation.framework */; };
+		D692489181F6679DE62F6B6C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF314018820A010191CF4E66 /* libcrypto.a */; };
+		D975421AAAB76F836408AC4B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35C4050B9FB5147FDE65924 /* WebKit.framework */; };
+		DC494F5BA971F21BC395EEA0 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFD4AE99A7CAFE24D7DA42E /* libffi.a */; };
+		DCE048FCB4B00544923736A8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8544D7E83F1098AD632C780 /* MessageUI.framework */; };
+		F64240738FDD2243B216E136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9C4680BD34C3D333302159 /* CoreGraphics.framework */; };
+		FCED416382B3BE6CA106B532 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFA41FC9DCED1AD112344AB /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		007E46158515625E1622D42C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = "<absolute>"; };
+		01532DA9137C099F0076F6BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		015A431F9970DDF666FCADE9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib/libz.tbd; sourceTree = "<absolute>"; };
+		0BC24BCF9D5EA8605D285487 /* libsdl2_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2_image.a; path = ../dist/lib/libsdl2_image.a; sourceTree = SOURCE_ROOT; };
+		1D6058910D05DD3D006BFB54 /* schedulara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schedulara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CB5F34517D5233A006187AB /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = SOURCE_ROOT; };
+		2CB5F34617D5233A006187AB /* bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = SOURCE_ROOT; };
+		2DAF4AB7A191F8E1880D56C7 /* libpyobjus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpyobjus.a; path = ../dist/lib/libpyobjus.a; sourceTree = SOURCE_ROOT; };
+		3A9C4680BD34C3D333302159 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
+		415D4FCC9C3CCC6176862467 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = "<absolute>"; };
+		46CB4EC7AFB27978988B9A58 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../dist/lib/libssl.a; sourceTree = SOURCE_ROOT; };
+		4B3E420B90DA646BF64B6310 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = "<absolute>"; };
+		593E47FB8EA7624D47D29D93 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib/libc++.tbd"; sourceTree = "<absolute>"; };
+		59738AB41A8BB5D8001B2C0C /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = /Users/kevinwulff/dist/root/python3/lib; sourceTree = "<group>"; };
+		59738ABA1A8E19AA001B2C0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = schedulara/Images.xcassets; sourceTree = "<group>"; };
+		59994E3A148E85C800863906 /* YourApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = YourApp; sourceTree = "<group>"; };
+		59FDEA8A21E7D34E004E6ECE /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = /Users/kevinwulff/dist/root/python3/include; sourceTree = "<group>"; };
+		5FF64E348B2027E56991207E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = "<absolute>"; };
+		633B4EAEBCD8159E32BBD7E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		661043A5BCD897250B898F8A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		67FF478F8EE94CD50B68A5C7 /* libpython3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpython3.a; path = ../dist/lib/libpython3.a; sourceTree = SOURCE_ROOT; };
+		71384D4E8A6DF0C4767A4F06 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		776A494AAF478C2DDBAB791B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = "<absolute>"; };
+		7EFD4AE99A7CAFE24D7DA42E /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libffi.a; path = ../dist/lib/libffi.a; sourceTree = SOURCE_ROOT; };
+		84864AB58FDB7719771959D2 /* libkivy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkivy.a; path = ../dist/lib/libkivy.a; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* schedulara-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "schedulara-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		943449219E40F861FF9374D1 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../dist/lib/libfreetype.a; sourceTree = SOURCE_ROOT; };
+		980A44C8B3060F2F1204EFD7 /* libios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libios.a; path = ../dist/lib/libios.a; sourceTree = SOURCE_ROOT; };
+		9DE44AAC819E703A1E435900 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreHaptics.framework; sourceTree = "<absolute>"; };
+		A4F64DE7A2846352C05FFBE7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = "<absolute>"; };
+		ABAF4A959762800C32A5F13F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		AC5106F42959EE4E00655416 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Storyboards/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B35C4050B9FB5147FDE65924 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		B3CE4A43B71DF0651DC553E0 /* libsdl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2.a; path = ../dist/lib/libsdl2.a; sourceTree = SOURCE_ROOT; };
+		BCDC4163960EA4CE5301E07E /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/Metal.framework; sourceTree = "<absolute>"; };
+		C1F44AAEBFE305A7AE7154D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = "<absolute>"; };
+		D8544D7E83F1098AD632C780 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = "<absolute>"; };
+		DF5E485199F6AC40279F9DFA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = "<absolute>"; };
+		EB164123A8EEE1A60112F641 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
+		EB574A28A078576585679209 /* libpillow.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpillow.a; path = ../dist/lib/libpillow.a; sourceTree = SOURCE_ROOT; };
+		EC774F689BD550B0EB3E4F6C /* libsdl2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2_mixer.a; path = ../dist/lib/libsdl2_mixer.a; sourceTree = SOURCE_ROOT; };
+		EE2347B2B6FD0252FC5FAC29 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib/libbz2.tbd; sourceTree = "<absolute>"; };
+		F461414BBD883FD5B7B9C70C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = "<absolute>"; };
+		F98846BDB2BFC3FF3BC3AC6D /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = ../dist/lib/libjpeg.a; sourceTree = SOURCE_ROOT; };
+		FBFA41FC9DCED1AD112344AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = "<absolute>"; };
+		FC954AC3A8BD76F4FECEC11B /* libsdl2_ttf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2_ttf.a; path = ../dist/lib/libsdl2_ttf.a; sourceTree = SOURCE_ROOT; };
+		FF314018820A010191CF4E66 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../dist/lib/libcrypto.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1949388509638C9DC606DE /* Photos.framework in Frameworks */,
+				AFCF4BFE8DF911F6A05A7D11 /* OpenGLES.framework in Frameworks */,
+				8F0C42309909B50B48DEAD48 /* CoreBluetooth.framework in Frameworks */,
+				536E40D1BDC6375B0FDB9E96 /* AudioToolbox.framework in Frameworks */,
+				F64240738FDD2243B216E136 /* CoreGraphics.framework in Frameworks */,
+				FCED416382B3BE6CA106B532 /* MobileCoreServices.framework in Frameworks */,
+				3B8F42ED8E1108F0358B7118 /* CoreHaptics.framework in Frameworks */,
+				D454400A98DDC70483B590A3 /* AVFoundation.framework in Frameworks */,
+				DCE048FCB4B00544923736A8 /* MessageUI.framework in Frameworks */,
+				96CA4F1B9C2D2F2837F5E8D1 /* UIKit.framework in Frameworks */,
+				7AFD4571AEB58E9A1CA605C7 /* ImageIO.framework in Frameworks */,
+				15694C1C89EAB79B36E09178 /* CoreMedia.framework in Frameworks */,
+				0598497B90F25D2351C44717 /* CoreVideo.framework in Frameworks */,
+				72BD435D82D42D6EF779C56A /* QuartzCore.framework in Frameworks */,
+				49024149A045CE4B19619996 /* Accelerate.framework in Frameworks */,
+				3F5E4FE8989825EBDC8CA05B /* Metal.framework in Frameworks */,
+				8A4A4F84A07A7FB1C06506E5 /* GameController.framework in Frameworks */,
+				AD844CAE99CC5F1EE75B68F4 /* CoreMotion.framework in Frameworks */,
+				D975421AAAB76F836408AC4B /* WebKit.framework in Frameworks */,
+				6DEF4B4AB534D39D2078FA55 /* libbz2.tbd in Frameworks */,
+				6BA042BB80D75928998AF25D /* libc++.tbd in Frameworks */,
+				2AF24484A485B3009569967D /* libz.tbd in Frameworks */,
+				B10142639275680685150616 /* libsqlite3.tbd in Frameworks */,
+				D692489181F6679DE62F6B6C /* libcrypto.a in Frameworks */,
+				43A54D3A9DF56C2255576412 /* libpyobjus.a in Frameworks */,
+				1551497C8636AE85A1EBA81B /* libsdl2_image.a in Frameworks */,
+				A7CE4A928EF4FB746366ADAD /* libpython3.a in Frameworks */,
+				D19F4FAC82B44B71D1DB656D /* libjpeg.a in Frameworks */,
+				DC494F5BA971F21BC395EEA0 /* libffi.a in Frameworks */,
+				5AEA4663B7B475894D5A05B8 /* libpillow.a in Frameworks */,
+				32B7415C9143769979DB2EB4 /* libsdl2.a in Frameworks */,
+				CE254524898FED12CDA2CCBC /* libssl.a in Frameworks */,
+				69CD4867A510C3A782ECA21D /* libsdl2_mixer.a in Frameworks */,
+				BC004BB7B400728CD4703CA7 /* libkivy.a in Frameworks */,
+				33EB4BA79BE5738B89A8C7A4 /* libios.a in Frameworks */,
+				C7DA4B9E9F77D83FCDA6961B /* libsdl2_ttf.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5F34517D5233A006187AB /* bridge.h */,
+				2CB5F34617D5233A006187AB /* bridge.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* schedulara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				AC5106F32959EE3800655416 /* Storyboards */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				59994E3A148E85C800863906 /* YourApp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59738ABA1A8E19AA001B2C0C /* Images.xcassets */,
+				59738AB41A8BB5D8001B2C0C /* lib */,
+				59FDEA8A21E7D34E004E6ECE /* include */,
+				01532DA9137C099F0076F6BF /* icon.png */,
+				8D1107310486CEB800E47090 /* schedulara-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				776A494AAF478C2DDBAB791B /* Photos.framework */,
+				007E46158515625E1622D42C /* OpenGLES.framework */,
+				5FF64E348B2027E56991207E /* CoreBluetooth.framework */,
+				661043A5BCD897250B898F8A /* AudioToolbox.framework */,
+				3A9C4680BD34C3D333302159 /* CoreGraphics.framework */,
+				FBFA41FC9DCED1AD112344AB /* MobileCoreServices.framework */,
+				9DE44AAC819E703A1E435900 /* CoreHaptics.framework */,
+				DF5E485199F6AC40279F9DFA /* AVFoundation.framework */,
+				D8544D7E83F1098AD632C780 /* MessageUI.framework */,
+				C1F44AAEBFE305A7AE7154D9 /* UIKit.framework */,
+				EB164123A8EEE1A60112F641 /* ImageIO.framework */,
+				4B3E420B90DA646BF64B6310 /* CoreMedia.framework */,
+				ABAF4A959762800C32A5F13F /* CoreVideo.framework */,
+				633B4EAEBCD8159E32BBD7E4 /* QuartzCore.framework */,
+				71384D4E8A6DF0C4767A4F06 /* Accelerate.framework */,
+				BCDC4163960EA4CE5301E07E /* Metal.framework */,
+				415D4FCC9C3CCC6176862467 /* GameController.framework */,
+				F461414BBD883FD5B7B9C70C /* CoreMotion.framework */,
+				B35C4050B9FB5147FDE65924 /* WebKit.framework */,
+				EE2347B2B6FD0252FC5FAC29 /* libbz2.tbd */,
+				593E47FB8EA7624D47D29D93 /* libc++.tbd */,
+				015A431F9970DDF666FCADE9 /* libz.tbd */,
+				A4F64DE7A2846352C05FFBE7 /* libsqlite3.tbd */,
+				FF314018820A010191CF4E66 /* libcrypto.a */,
+				2DAF4AB7A191F8E1880D56C7 /* libpyobjus.a */,
+				0BC24BCF9D5EA8605D285487 /* libsdl2_image.a */,
+				67FF478F8EE94CD50B68A5C7 /* libpython3.a */,
+				F98846BDB2BFC3FF3BC3AC6D /* libjpeg.a */,
+				7EFD4AE99A7CAFE24D7DA42E /* libffi.a */,
+				EB574A28A078576585679209 /* libpillow.a */,
+				B3CE4A43B71DF0651DC553E0 /* libsdl2.a */,
+				943449219E40F861FF9374D1 /* libfreetype.a */,
+				46CB4EC7AFB27978988B9A58 /* libssl.a */,
+				EC774F689BD550B0EB3E4F6C /* libsdl2_mixer.a */,
+				84864AB58FDB7719771959D2 /* libkivy.a */,
+				980A44C8B3060F2F1204EFD7 /* libios.a */,
+				FC954AC3A8BD76F4FECEC11B /* libsdl2_ttf.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC5106F32959EE3800655416 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AC5106F42959EE4E00655416 /* Launch Screen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* schedulara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "schedulara" */;
+			buildPhases = (
+				113D17E2153E3DB5001310A5 /* ShellScript */,
+				113D17E2153E3DB5001310A6 /* ShellScript */,
+				113D17E2153E3DB5001310A7 /* ShellScript */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = schedulara;
+			productName = schedulara;
+			productReference = 1D6058910D05DD3D006BFB54 /* schedulara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 3GW8NRCQBV;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "schedulara beta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* schedulara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738AB51A8BB5D8001B2C0C /* lib in Resources */,
+				AC5106F52959EE4E00655416 /* Launch Screen.storyboard in Resources */,
+				59FDEA8B21E7D34E004E6ECE /* include in Resources */,
+				59738ABB1A8E19AA001B2C0C /* Images.xcassets in Resources */,
+				01532DAA137C099F0076F6BF /* icon.png in Resources */,
+				59994E3B148E85C800863906 /* YourApp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113D17E2153E3DB5001310A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "rsync -av --delete \"/Users/kevinwulff/schedulara\"/ \"$PROJECT_DIR\"/YourApp";
+		};
+		113D17E2153E3DB5001310A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/Users/kevinwulff/dist/hostpython3/bin/python -m compileall -f -b \"$PROJECT_DIR\"/YourApp";
+		};
+		113D17E2153E3DB5001310A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "find \"$PROJECT_DIR\"/YourApp/ -regex '.*\\.py' -delete";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2CB5F34717D5233A006187AB /* bridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 3GW8NRCQBV;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/kevinwulff/dist/frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/kevinwulff/dist/root/python3/include/python3.9/**",
+					/Users/kevinwulff/dist/include/common/sdl2,
+				);
+				INFOPLIST_FILE = "schedulara-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "scheulara beta";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kevinwulff/dist/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib,
+					"$(SRCROOT)/../dist/lib",
+				);
+				MARKETING_VERSION = 2.26.2023;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = schedulara;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 3GW8NRCQBV;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/kevinwulff/dist/frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/kevinwulff/dist/root/python3/include/python3.9/**",
+					/Users/kevinwulff/dist/include/common/sdl2,
+				);
+				INFOPLIST_FILE = "schedulara-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "scheulara beta";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kevinwulff/dist/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib,
+					"$(SRCROOT)/../dist/lib",
+				);
+				MARKETING_VERSION = 2.26.2023;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = schedulara;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				USER_HEADER_SEARCH_PATHS = /Users/kevinwulff/dist/root/include/;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				USER_HEADER_SEARCH_PATHS = /Users/kevinwulff/dist/root/include/;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "schedulara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "schedulara beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
