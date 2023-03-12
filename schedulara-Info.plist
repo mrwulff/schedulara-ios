@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.entertainment</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
@@ -35,6 +37,12 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Future Use of wireless sign in and out</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Sign in and out. Archive time sheets and notes</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Future location tracking and updating</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
